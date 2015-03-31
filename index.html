@@ -12,8 +12,8 @@
     <link rel="stylesheet" href="css/bootstrap-theme.min.css" type="text/css">
     <link rel="stylesheet" href="css/simple.css">
 
-    <scrip src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></scrip>
-    <scrip src="js/bootstrap.min.js"></scrip>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
 
 
 
@@ -22,7 +22,22 @@
 <body>
 
     <div class="container-fluid">
+
+        <div class="row cv-navigation">
+            <div class="col-md-12">
+                <ul class="nav nav-pills">
+                    <li role="presentation" class="active"><a href="#contacts">Contacts</a></li>
+                    <li role="presentation"><a href="#education">Education</a></li>
+                    <li role="presentation"><a href="#experience">Experience</a></li>
+                    <li role="presentation"><a href="#skills">Skills</a></li>
+                </ul>
+            </div>
+        </div>
+
+
+
         <div class="row">
+
             <main>
                 <div class="cv-head col-xs-12 col-md-12">
                     <img src="icons/me.png">
@@ -52,7 +67,7 @@
             <div class="col-md-6">
                 <div class="cv-post">
 
-                    <h4> Contacts </h4>
+                    <h4 id="contacts"> Contacts </h4>
 
                     <ul class="cv-list contacts-list">
                         <li>
@@ -76,19 +91,19 @@
             <div class="col-md-6">
                 <div class="cv-post">
 
-                    <h4> Education </h4>
+                    <h4 id="education"> Education </h4>
 
                     <ul class="cv-list">
                         <li>
-                            <h7 class="cv-list-title"> 2003 - 2007 </h7>
+                            <H6 class="cv-list-title"> 2003 - 2007 </H6>
                             <h5 class="cv-list-title-2"> Bachelor of engineering (Electronics) </h5>
-                            <h7 class="cv-list-title"> Kaunas University of Technology </h7>
+                            <H6 class="cv-list-title"> Kaunas University of Technology </H6>
                         </li>
 
                         <li>
-                            <h7 class="cv-list-title"> 2007 - 2009 </h7>
+                            <H6 class="cv-list-title"> 2007 - 2009 </H6>
                             <h5 class="cv-list-title-2"> Master of engineering (Electronics) </h5>
-                            <h7 class="cv-list-title"> Kaunas University of Technology </h7>
+                            <H6 class="cv-list-title"> Kaunas University of Technology </H6>
                         </li>
                     </ul>
 
@@ -103,13 +118,13 @@
             <div class="col-md-6">
                 <div class="cv-post">
 
-                    <h4> Experience </h4>
+                    <h4 id="experience"> Experience </h4>
 
                     <ul class="cv-list">
 
                          <li>
                              <h5 class="cv-list-title"> 2007 - 2009  </h5>
-                            <h7 class="cv-list-title-2"> Software engineer at 'Elintos prietaisai' Ltd </h7>
+                            <H6 class="cv-list-title-2"> Software engineer at 'Elintos prietaisai' Ltd </H6>
 
                              <p>
                                  'Elintos prietaisai' JSC
@@ -126,7 +141,7 @@
                         </li>
 
                         <li>
-                            <h7 class="cv-list-title"> 2011 - Now </h7>
+                            <H6 class="cv-list-title"> 2011 - Now </H6>
                             <h5 class="cv-list-title-2"> Project manager at 'Elinvision', Ltd </h5>
                             <p>
                                 After two years I returned to my old work (the company changed its name). Right away I started working as software engineer. Now I’m project manager and working with custom projects. All projects are related with industrial vision systems. I got more experience in project management and job planning. I’m responsible for task preparation, project status tracking, consultation, software development, structure of software preparation, user interface, communication with clients and many more.
@@ -140,7 +155,7 @@
 
             <div class="col-md-6">
                 <div class="cv-post">
-                    <h4> Personal skills </h4>
+                    <h4 id="skills"> Personal skills </h4>
                     <ul class="cv-list cv-skills">
                         <li>
                             <div class="cv-skills-item">
@@ -176,7 +191,7 @@
                 </div>
 
                 <div class="cv-post">
-                    <h4> Profession skills </h4>
+                    <h4 id="test"> Profession skills </h4>
                     <ul class="cv-list">
 
                         <li>
